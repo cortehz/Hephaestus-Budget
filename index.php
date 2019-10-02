@@ -23,6 +23,7 @@ if (isset($_SESSION['user'])) {
     <div>
       <a href="login.php" class="btn btn-sm btn-info">Login</a>
       <a href="signup.php" class="btn btn-sm btn-info">Sign up</a>
+      <a href="FAQ.html" class=" btn-sm">FAQS</a>
     </div>
   </nav>
   <div id="intro" class="px-3 py-3">

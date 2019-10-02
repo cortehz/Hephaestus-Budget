@@ -31,7 +31,7 @@ if (isset($_POST['logout'])) {
     <nav class="navbar head p-0 px-2 ">
     <p class="m-0"><a href="./" class="nav-link hephbrand text-light h5 font-weight-bold" style="color: inherit">HephBudget</a></p>
         <form method="post"><small class=" text-light font-weight-bold position-relative mr-1" style="font-size: 14px; top: 1px">Hello <?php echo $user['name'] ?> </small>
-            <button name="logout" type="submit" class="btn badge badge-danger p-2"> <i class="fa fa-power-off"></i></button></form>
+            <button name="logout" type="submit" class="btn badge badge-danger p-2"> <i class="fa fa-power-off"></i></button></form><a href="FAQ.html" class="btn btn-sm btn-info">FAQS</a>
     </nav>
 
     <div class="position-absolute w-100 h-100" style="top: 0">
